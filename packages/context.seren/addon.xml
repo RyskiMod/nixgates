@@ -7,27 +7,27 @@
 	<extension point="kodi.context.item">
         <menu id="kodi.core.main">
             <item library="shuffle.py">
-                <label>Shuffle Play</label>
+                <label>[B][COLOR dodgerblue]Shuffle Play[/COLOR][/B]</label>
                 <visible>String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+String.IsEqual(ListItem.dbtype,tvshow)</visible>
             </item>
 			<item library="findSimilar.py">
-                <label>Find Similar</label>
+                <label>[B][COLOR dodgerblue]Find Similar[/COLOR][/B]</label>
                 <visible>String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+[String.IsEqual(ListItem.dbtype,tvshow)|String.IsEqual(ListItem.dbtype,movie)]</visible>
             </item>
 			<item library="rescrape.py">
-                <label>Rescrape Item</label>
+                <label>[B][COLOR dodgerblue]Rescrape Item[/COLOR][/B]</label>
                 <visible>String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+[String.IsEqual(ListItem.dbtype,episode)|String.IsEqual(ListItem.dbtype,movie)]</visible>
             </item>
 			<item library="sourceSelect.py">
-                <label>Source Select</label>
+                <label>[B][COLOR dodgerblue]Source Select[/COLOR][/B]</label>
                 <visible>String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+[String.IsEqual(ListItem.dbtype,episode)|String.IsEqual(ListItem.dbtype,movie)]</visible>
             </item>
 			<item library="browseShow.py">
-                <label>Browse Show</label>
+                <label>[B][COLOR dodgerblue]Browse Show[/COLOR][/B]</label>
                 <visible>String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+[String.IsEqual(ListItem.dbtype,episode)|String.IsEqual(ListItem.dbtype,tvshow)]</visible>
             </item>
 			<item library="traktManager.py">
-				<label>Trakt Manager</label>
+				<label>[B][COLOR dodgerblue]Trakt Manager[/COLOR][/B]</label>
 				<visible>String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+[String.IsEqual(ListItem.dbtype,episode)|String.IsEqual(ListItem.dbtype,tvshow)|String.IsEqual(ListItem.dbtype,season)|String.IsEqual(ListItem.dbtype,movie)]</visible>
 			</item>
         </menu>
